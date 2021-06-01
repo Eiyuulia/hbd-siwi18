@@ -23,7 +23,9 @@ nav {
     color: black;
     letter-spacing: 7px;
     font-size: 20px;
+    cursor: alias;
 }
+
 
 .nav-links {
     display: flex;
@@ -265,13 +267,24 @@ section .note {
 .sec3 .bigcard img {
     max-width: 250px;
     max-height: 750px;
-    margin: 60px 0 20px 0;
+    margin: 60px 0 40px;
     border-radius: 30px;
+    cursor: pointer;
+}
+
+.sec3 .bigcard img:hover {
+    transform: scale(1.2) translateY(-10px);
+    box-shadow: 0px 0px 20px 5px #ffb6da;
 }
 
 .sec3 .bigcard h2 {
     font-size: 27px;
     margin-bottom: 150px;
+    cursor: alias;
+}
+
+.sec3 .bigcard h2:hover {
+    color: #ff66b3;
 }
 
 .sec3 .bigcard p {
